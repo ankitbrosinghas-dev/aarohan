@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Minimalist Loading Indicator -->
+  <div id="loader" class="loader">
+    <div class="loader-spinner"></div>
+    <div id="loader-percent" class="loader-percent">0%</div>
+  </div>
+
+  <!-- Portal Viewport -->
+  <div class="portal-viewport">
+    <!-- Scalable Canvas Wrapper -->
+    <div class="canvas-wrapper" id="canvas-wrapper">
+      <canvas id="scroll-canvas"></canvas>
+      <!-- Duotone Overlay -->
+      <div class="duotone-overlay" id="duotone-overlay"></div>
+    </div>
+
+    <!-- Castle Arrival Title Logo -->
+    <div class="castle-title-container" id="castle-title-container">
+      <img src="logo.png" alt="Aarohan Legacy" class="castle-title-logo" id="castle-title-logo">
+    </div>
+
+    <!-- Center Light Leak / Seam Flare -->
+    <div class="seam-light-leak" id="seam-light-leak"></div>
+
+    <!-- Traveling Energy Accent Nodes -->
+    <div class="accent-dot" id="accent-dot-1"></div>
+    <div class="accent-dot" id="accent-dot-2"></div>
+
+    <!-- Carved Fantasy Game Door Panels -->
+    <div class="panel panel-left" id="panel-left">
+      <img src="door_full.jpg" alt="Door Left" class="door-img door-img-left">
+      <div class="panel-seam-glow-edge"></div>
+    </div>
+
+    <div class="panel panel-right" id="panel-right">
+      <img src="door_full.jpg" alt="Door Right" class="door-img door-img-right">
+      <div class="panel-seam-glow-edge"></div>
+    </div>
+  </div>
+
+  <!-- Scroll Container -->
+  <div class="scroll-track"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
