@@ -177,6 +177,10 @@ body {
   box-shadow: -15px 0 50px rgba(0, 0, 0, 0.95);
 }
 
+.door-picture {
+  display: contents;
+}
+
 /* 100vw image inside 50vw panel clipped seamlessly with slight cursor parallax expansion */
 .door-img {
   position: absolute;
